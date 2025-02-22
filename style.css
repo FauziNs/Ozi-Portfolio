@@ -233,3 +233,74 @@ box-shadwo: 0 0 15px #72a1de;
         height: auto
     }
 }
+
+
+@media screen and (max-width: 1000px) {
+    .blackhole-box video {
+        margin-top: -20%;
+    }
+    .hero-info h1 {
+        font-size: 40px;
+        max-width: 400px;
+    }
+    .hero-info p {
+        max-width: 300px;
+    }
+    .hero-info img {
+        height: 300px;
+    }
+    .about-section {
+        padding:  10%;
+        width: 90%;
+    }
+    info-card h1 {
+        margin-right: 5px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    header ul {
+        display: none;
+    }
+    .blackhole-box video {
+        margin-top: -11%;
+    }
+    .about-section {
+        widthL 80%;
+        flex-wrap: wrap;
+    }
+    .hero {
+        flex-direction: column;
+    }
+    .hero-info {
+        bottom: 10px;
+    }
+    .hero img {
+        height: 200px;
+        right: 100px;
+        top 70px;
+    }
+    .container {
+        height: 100%;
+    }
+
+    
+    .hero-info h1 {
+        font-size: 30px;
+        max-width: 300px;
+    }
+    .hero-info p {
+        max-width: 200px;
+    }
+    .hero-info img {
+        height: 200px;
+    }
+    .about-section {
+        flex-direction: column;
+        padding: 10%;
+    }
+    .info-card h1 {
+        font-size: 40px;
+        margin-right: 5px;
+    }
+}
